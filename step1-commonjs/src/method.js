@@ -1,5 +1,11 @@
-/** @format */
+/**
+ * 格式化文本
+ *
+ * @format
+ * @param {string} name
+ * @return {string}
+ */
 
-export const fun = (x) => {
-  return `== ${x} ==`;
+module.exports = function (name) {
+  return `hello ${name}`;
 };

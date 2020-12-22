@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "prettier": "^2.2.1"
+    "webpack": "^5.10.1",
+    "webpack-cli": "^4.2.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode development"
   },
   "keywords": [],
   "author": "",

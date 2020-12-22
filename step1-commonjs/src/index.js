@@ -1,4 +1,5 @@
 /** @format */
 
-import { fun } from "./method";
-console.log(fun("^-^"));
+const hello = require("./method");
+
+console.log(hello("otto"));
