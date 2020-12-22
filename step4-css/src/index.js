@@ -1,0 +1,3 @@
+/** @format */
+
+import "./b.css";
